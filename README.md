@@ -11,7 +11,7 @@ app_port: 7860
 
 # 💕 Personal OpenHands Backend
 
-A powerful AI agent backend made for you and your girlfriend! OpenRouter-only, no Google Cloud, simple authentication, and optimized for Hugging Face Spaces.
+A powerful AI agent backend made for you and your girlfriend! Uses **Claude 3.5 Sonnet** via OpenRouter for the best conversation quality. No Google Cloud, simple authentication, and optimized for Hugging Face Spaces.
 
 ## 🚀 Quick Start
 
@@ -34,8 +34,8 @@ LLM_API_KEY=your_openrouter_api_key
 # Required - Your personal password/token (choose any password you like!)
 PERSONAL_ACCESS_TOKEN=your_chosen_password_here
 
-# Optional - LLM configuration (defaults provided)
-LLM_MODEL=openrouter/anthropic/claude-3-haiku-20240307
+# Optional - LLM configuration (defaults to Claude 3.5 Sonnet)
+LLM_MODEL=anthropic/claude-3.5-sonnet
 LLM_BASE_URL=https://openrouter.ai/api/v1
 ```
 
